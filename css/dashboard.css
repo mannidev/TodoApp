@@ -1,0 +1,93 @@
+.todo-summary div {
+    width: calc(100%/3);
+    margin-top: 30px;
+    padding: 10px 0;
+    text-align: center;
+    float: left;
+    background-color: rgb(228, 117, 26);
+    color: #fff;
+    box-shadow: 0 1px 1px 0 rgb(0, 0, 0, 0.2); 
+}
+
+.todo-summary div:first-child {
+    background-color: rgb(26, 131, 35);
+}
+
+.todo-summary div:last-child {
+    background-color: rgb(31, 101, 192);
+}
+
+.todo-summary div span {
+    display: block;
+    font-weight: bold;
+}
+
+.todo-summary div span:last-child { 
+    margin-top: 2px;
+    font-size: .7em;
+}
+
+.new-todo-Group {
+    margin-top: 30px;
+}
+
+.new-todo-Group input {
+    width: 80%;
+    float: left;
+    padding: 10px;
+    border: 1px solid #1f5768;
+    border-right: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-size: .8em;
+    height: 40px;
+    outline: none;
+}
+
+.new-todo-Group button {
+    width: 20%;
+    float: left;
+    border: 1px solid #1f5768;
+    padding: 10px 0;
+    color: #fff;
+    background: #1f5768;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: .9em;
+    height: 40px;
+    outline: none;
+}
+
+.new-todo-Group button:hover {
+    background-color: #4393ac;
+    border: 1px solid #4393ac;
+}
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+
+.todo-table table th:first-child  {
+    width: 65%;
+}
+
+.progress-bar {
+    width: 100%;
+    height: 3px;
+    background-color: #252323;
+}
+
+.progress {
+    width: 70%;
+    background-color: #18df29;
+    height: 3px;
+}
+
+.todo-Group:hover {
+    cursor: pointer;
+    border-bottom: 1px solid rgb(17, 134, 243);
+}

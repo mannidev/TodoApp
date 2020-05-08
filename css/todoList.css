@@ -1,0 +1,114 @@
+.progressBar {
+    width: 100%; 
+   background-color: #ccb9b9; 
+}
+
+.bar { 
+   width: 70%;
+    height: 15px;
+    background-color: #da7c02;
+    color: #fff;
+    font-size: .7em;
+    text-align: center;
+    padding: 2px 0; 
+}
+
+.todo-table {
+    height: 50vh;
+}
+
+.todo-table th {
+    background-color: #1f5768;  
+}
+
+.todo-table tbody tr:hover {
+    background-color: #e0e0e0;  
+    cursor: pointer; 
+    color: #1f5768;
+}
+
+.todo-table tbody tr:hover .info-icon {
+    color: #1f5768;   
+}
+
+.todo-table tbody tr:hover .tooltiptext::before {
+    content: 'Click to see item details';   
+}
+
+.todo-table table th:first-child  {
+    width: 10px
+}
+
+.todo-table table th:nth-child(2) {
+    width: 57%;
+}
+.header-content h1{
+    margin: 10px auto;
+    font-size: 1.5em;
+    color: #1f5768;
+}
+
+.row-details.hidden {
+    display: none; 
+}
+
+.row-details.show {
+    display: table-row; 
+}
+
+.row-details td:hover {
+    cursor: auto;
+    color: #4e4e4e;
+    background-color: #fff;
+}
+
+.row-details td {
+    position: relative;
+}
+
+.row-details td > span {
+    position: absolute;
+    top: 50%;
+    font-size: 2em;
+    color: #05a3ca;
+    transform: translateY(-50%);
+}
+
+.row-details td div{ 
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-start;
+    flex-wrap: wrap; 
+    margin-left: 55px;
+    color: #4e4e4e;
+    font-size: .725em;
+}
+
+.row-details td div p {
+    width: 30%;
+    margin: 5px 0;
+    flex: 1 0 30%;
+}
+
+.row-details td div p span{
+    display: block;
+}
+
+.row-details td div p span:first-child{
+    font-weight: bolder;
+}
+
+.footer {
+    position: sticky;
+    left: 0;
+    bottom: 0;
+}
+
+.pagination .active {
+    background-color: #1f5768;
+    border: 1px solid #1f5768;
+}
+
+.info-icon:hover {
+    color: #1f5768;
+}

@@ -1,0 +1,236 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color:  #757575;
+}
+
+.app-wrapper {
+    width: 500px;
+    height: 80vh;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0, 0.2); 
+    overflow: auto; 
+}
+
+.header-content {
+    color: #0e0303;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.main-body {
+    width: 100%;
+    margin: 20px auto; 
+}
+
+.todo-table {
+    height: 42vh;
+    margin-bottom: 20px;;
+    overflow-y: auto;
+}
+
+table {
+    position: relative;
+    border-collapse: collapse; 
+    width: 100%; 
+    font-size: .9em; 
+}
+
+table th {
+    position: sticky; 
+    top: 0;
+}
+
+th {
+    padding: 10px;
+    background-color: #757575;
+    text-align: left;
+    color: #fff;
+}
+
+tr {
+    border-bottom: 1px solid #ddd;
+}
+
+td {
+    padding: 10px;
+}
+
+td .table-actions {
+    display: block;
+    text-align: center;
+}
+
+td .table-actions a {
+    color: #252323;
+}
+
+td .table-actions a:hover {
+    color: red;
+}
+
+.footer {
+    padding: 10px 0; 
+}
+
+.footer .buttons {
+    float: left;
+}
+
+.buttons .btn {
+    padding: 5px 25px;
+    border: none;
+    color: #fff;
+    font-size: .8em;
+    background-color: #1f5768;
+}
+
+.buttons a {
+    text-decoration: none;
+}
+ 
+.pagination {
+    float: right; 
+    font-size: .7em;
+}
+
+.pagination a {
+    color: #757575;
+    text-decoration: none;
+    padding: 5px 10px;
+    float: left; 
+    border: 1px solid #757575;
+    border-left: none;
+}
+
+.pagination a:first-child {
+    border-left: 1px solid #757575;
+}
+
+.pagination .active {
+    color: #fff;
+    background-color: #757575;
+}
+
+::-webkit-scrollbar {
+    width: 2px;
+}
+
+::-webkit-scrollbar-track {
+    background: #da7c02;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #1f5768;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #308099;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border: 1px solid #bdb4b4; 
+    width: 20px;
+    height: 20px; 
+    font-size: .8em;
+    text-align: center;
+    border-radius: 50%;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.close:hover { 
+    font-size: 1em;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    font-weight: bolder;
+    border: 2px solid rgb(196, 51, 7);
+}
+
+.close  a {
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    color: red;
+}
+ 
+
+.menu-icon div{
+    width: 10px;
+    height: 1px;
+    margin: 1px 0;
+    background-color: #353536;
+}
+
+.menu-icon:hover div{ 
+    margin: 2px 0;
+    height: 2px;
+    background-color: #0848a8;
+    cursor: pointer; 
+}
+
+.menu-icon:hover {
+    transform: rotate(90deg);
+    transition-duration: 0.8s;
+    transition-property: transform;
+}
+
+.tooltip {
+    position: relative; 
+}
+
+/* tool tip text*/
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    font-size: .7em;
+    background-color: #4d4b4b; 
+    color: #ffffff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 80%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s; 
+}
+
+/* tool tip Arrow*/
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px; 
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: .8;
+}

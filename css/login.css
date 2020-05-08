@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color:  #757575;
+}
+
+.app-wrapper {
+    width: 500px;
+    height: 70vh;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0, 0.2); 
+}
+
+.header-content {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.main-body {
+    width: 60%;
+    margin: 0 auto;
+}
+
+input[type=text], 
+input[type=password],
+input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 5px 0 20px 0; 
+}
+
+button {
+    background-color: rgb(7, 104, 184);
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+button:hover {
+    background-color: rgb(11, 72, 122);
+}
+
+.remember-me {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.acc-recovery-links {
+    font-size: .8em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.acc-recovery-links a {
+    text-decoration: none;
+    color: #0e3dda;
+}
+
+.signUp button {
+    margin-top: 20px;
+}
+

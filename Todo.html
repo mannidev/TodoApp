@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Todo</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/todo.css">
+</head>
+
+<body>
+    <div class="app-wrapper todo-item">
+        <div class="header-content">
+            <h1>House Chores</h1> 
+        </div>
+
+        <div class="main-body"> 
+            <div class="todo-form"> 
+                <form action="#">
+                    <div class="input full flagged clearfix">
+                        <label for="flagged">
+                            <input type="checkbox" name="flagged" id="flagged">
+                            <span>Flag</span>
+                        </label> 
+                    </div>
+
+                    <div class="input full">
+                        <label for="description">Enter Todo Description</label>
+                        <input type="text" name="description" id="description" placeholder="Enter Todo Description">
+                    </div>
+
+                    <div class="input half left">
+                        <label for="startDate">Start Date</label>
+                        <input type="date" name="startDate" id="startDate" placeholder="Enter Start Date">
+                    </div>
+
+                    <div class="input half right">
+                        <label for="endDate">End Date</label>
+                        <input type="date" name="endDate" id="endDate" placeholder="Enter End Date">
+                    </div>
+
+                    <div class="input full">
+                        <label for="priority">Priority</label>
+                        <select name="priority" id="priority">
+                            <option value="1">Low</option>
+                        </select>
+                    </div>
+
+                    <div class="input full">
+                        <label for="reminderEmail">
+                            <input type="checkbox" name="sendMail" id="sendMail">
+                            <span>Send Reminder Email</span>
+                        </label>
+                        <input type="text" name="reminderEmailDate" id="reminderEmailDate" placeholder="Remind me on">
+                    </div>
+
+                    <div class="input full">
+                        <label for="progressEmail">
+                            <input type="checkbox" name="sendMail" id="sendMail">
+                            <span>Send Progress Email</span>
+                        </label>
+                        <input type="text" name="progressEmailDate" id="progressEmailDate" placeholder="Send progress email on">
+                    </div>
+
+                    <div class="buttons">
+                        <input class="btn" type="submit" value="Submit" />
+                        <a href="TodoList.html" class="btn">Cancel</a>
+                    </div>
+ 
+                </form>
+            </div> 
+        </div>
+    </div>
+</body>
+
+</html>

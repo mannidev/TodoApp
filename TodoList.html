@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Todo</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/todoList.css">
+</head>
+
+<body>
+    <div class="app-wrapper">
+        <div class="close" title="Close">
+            <a href="dashboard.html">x</a>
+        </div>
+        <div class="header-content">
+            <h1>House Chores</h1>
+
+            <div class="todo-progress clearfix">
+                <div class="progress-bar">
+                    <div class="progress">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main-body"> 
+            <div class="todo">
+                <div class="todo-table">
+                    <table>
+                        <thead>
+                            <tr> 
+                                <th></th>
+                                <th>Description</th>
+                                <th>Start Date</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr id="todo-1" data-child-id="todo-info-1"> 
+                                <td class="info-icon">
+                                    <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                </td>
+                                <td class="tooltip">
+                                    Remove doors
+                                    <span class="tooltiptext"></span>
+                                </td>
+                                <td>2020-04-15</td>
+                                <td>
+                                    <span class="table-actions">
+                                        <a href="#"><i class="fa fa-trash-o" aria-hidden="true"></i></a>
+                                    </span>
+                                </td>
+                            </tr>
+
+                            <tr id="todo-info-1" class="row-details hidden">
+                                <td colspan="4">
+                                    <span>
+                                        <i class="fa fa-info-circle" aria-hidden="true"></i>
+                                    </span>
+                                    <div> 
+                                        <p>
+                                            <span>Start Date</span>
+                                            <span>2020-04-23</span>
+                                        </p>
+    
+                                        <p>
+                                            <span>End Date</span>
+                                            <span>2020-04-23</span>
+                                        </p>
+
+                                        <p>
+                                            <span>Flagged</span>
+                                            <span>No</span>
+                                        </p>
+     
+                                        <p>
+                                            <span>Reminder Email</span>
+                                            <span>2020-04-23</span>
+                                        </p>
+    
+                                        <p>
+                                            <span>Progress Email</span>
+                                            <span>2020-04-23</span>
+                                        </p>
+
+                                        <p>
+                                            <span>Priority</span>
+                                            <span>Low</span>
+                                        </p>
+                                    </div>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <div class="menu-icon">
+                                        <div></div>
+                                        <div></div>
+                                        <div></div>
+                                    </div>
+                                </td>
+                                <td>Remove doors</td>
+                                <td>2020-04-15</td>
+                                <td>
+                                    <span class="table-actions">
+                                        <a href="#"><i class="fa fa-trash-o" aria-hidden="true"></i></a>
+                                    </span>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <div class="menu-icon">
+                                        <div></div>
+                                        <div></div>
+                                        <div></div>
+                                    </div>
+                                </td>
+                                <td>Remove doors</td>
+                                <td>2020-04-15</td>
+                                <td>
+                                    <span class="table-actions">
+                                        <a href="#"><i class="fa fa-trash-o" aria-hidden="true"></i></a>
+                                    </span>
+                                </td>
+                            </tr> 
+
+                            <tr>
+                                <td>
+                                    <div class="menu-icon">
+                                        <div></div>
+                                        <div></div>
+                                        <div></div>
+                                    </div>
+                                </td>
+                                <td>Remove doors</td>
+                                <td>2020-04-15</td>
+                                <td>
+                                    <span class="table-actions">
+                                        <a href="#"><i class="fa fa-trash-o" aria-hidden="true"></i></a>
+                                    </span>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <div class="menu-icon">
+                                        <div></div>
+                                        <div></div>
+                                        <div></div>
+                                    </div>
+                                </td>
+                                <td>Remove doors</td>
+                                <td>2020-04-15</td>
+                                <td>
+                                    <span class="table-actions">
+                                        <a href="#"><i class="fa fa-trash-o" aria-hidden="true"></i></a>
+                                    </span>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <div class="menu-icon">
+                                        <div></div>
+                                        <div></div>
+                                        <div></div>
+                                    </div>
+                                </td>
+                                <td>Remove doors</td>
+                                <td>2020-04-15</td>
+                                <td>
+                                    <span class="table-actions">
+                                        <a href="#"><i class="fa fa-trash-o" aria-hidden="true"></i></a>
+                                    </span>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <div class="menu-icon">
+                                        <div></div>
+                                        <div></div>
+                                        <div></div>
+                                    </div>
+                                </td>
+                                <td>Remove doors</td>
+                                <td>2020-04-15</td>
+                                <td>
+                                    <span class="table-actions">
+                                        <a href="#"><i class="fa fa-trash-o" aria-hidden="true"></i></a>
+                                    </span>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <div class="menu-icon">
+                                        <div></div>
+                                        <div></div>
+                                        <div></div>
+                                    </div>
+                                </td>
+                                <td>Remove doors</td>
+                                <td>2020-04-15</td>
+                                <td>
+                                    <span class="table-actions">
+                                        <a href="#"><i class="fa fa-trash-o" aria-hidden="true"></i></a>
+                                    </span>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <div class="menu-icon">
+                                        <div></div>
+                                        <div></div>
+                                        <div></div>
+                                    </div>
+                                </td>
+                                <td>Remove doors</td>
+                                <td>2020-04-15</td>
+                                <td>
+                                    <span class="table-actions">
+                                        <a href="#"><i class="fa fa-trash-o" aria-hidden="true"></i></a>
+                                    </span>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <div class="menu-icon">
+                                        <div></div>
+                                        <div></div>
+                                        <div></div>
+                                    </div>
+                                </td>
+                                <td>Remove doors</td>
+                                <td>2020-04-15</td>
+                                <td>
+                                    <span class="table-actions">
+                                        <a href="#"><i class="fa fa-trash-o" aria-hidden="true"></i></a>
+                                    </span>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <div class="menu-icon">
+                                        <div></div>
+                                        <div></div>
+                                        <div></div>
+                                    </div>
+                                </td>
+                                <td>Remove doors</td>
+                                <td>2020-04-15</td>
+                                <td>
+                                    <span class="table-actions">
+                                        <a href="#"><i class="fa fa-trash-o" aria-hidden="true"></i></a>
+                                    </span>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <div class="menu-icon">
+                                        <div></div>
+                                        <div></div>
+                                        <div></div>
+                                    </div>
+                                </td>
+                                <td>Remove doors</td>
+                                <td>2020-04-15</td>
+                                <td>
+                                    <span class="table-actions">
+                                        <a href="#"><i class="fa fa-trash-o" aria-hidden="true"></i></a>
+                                    </span>
+                                </td>
+                            </tr>
+                            
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="footer clearfix">
+                    <div class="buttons">
+                        <a href="Todo.html" class="btn">New Item</a>
+                    </div>
+
+                    <div class="pagination">
+                        <a href="#">&laquo;</a>
+                        <a href="#">1</a>
+                        <a href="#" class="active">2</a>
+                        <a href="#">3</a>
+                        <a href="#">&raquo;</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class=""></div>
+
+            <script src="js/todoList.js"></script>
+        </div>
+    </div>
+</body>
+
+</html>
