@@ -41,7 +41,7 @@ input[type=email] {
 }
 
 button {
-    background-color: rgb(7, 104, 184);
+    background-color: #0768b8;
     color: white;
     padding: 14px 20px;
     border: none;
@@ -51,7 +51,7 @@ button {
 }
 
 button:hover {
-    background-color: rgb(11, 72, 122);
+    background-color: #0b487a;
 }
 
 .remember-me {

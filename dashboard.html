@@ -36,7 +36,7 @@
             <div id="new-todo-Group" class="new-todo-Group hide clearfix">
                 <form action="">
                     <input type="text" name="newTodoGroup" id="newTodoGroup" placeholder="Add New Todo Group">
-                    <button type="submit">Add</button>
+                    <button type="submit" class="btn" onclick="addNewGroup()">Add</button>
                 </form>
             </div>
         </div>
@@ -244,7 +244,7 @@
 
                 <div class="footer clearfix">
                     <div class="buttons">
-                        <button id="new-group" class="btn" onclick="addNewGroup()">New Group</button>
+                        <button id="new-group" class="btn" onclick="showNewGroupSection()">New Group</button>
                     </div>
 
                     <div class="pagination">
@@ -257,7 +257,7 @@
                 </div>
             </div>
 
-            <div class=""></div>
+            <div id="toast" class="toast">Hello</div>
         </div>
     </div>
 
